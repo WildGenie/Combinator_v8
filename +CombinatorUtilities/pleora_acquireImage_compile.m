@@ -1,0 +1,1 @@
+mex(['-L' pwd],'-lCyCamLib','-lCyUtilsLib','-lCyComLib',['-I' pwd],'pleora_acquireImage.cpp')

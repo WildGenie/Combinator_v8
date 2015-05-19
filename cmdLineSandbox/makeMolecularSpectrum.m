@@ -1,0 +1,21 @@
+function crossSection = makeMolecularSpectrum(wavenumIn,wavenumSim,intCrossSectionSim,gaussianFWHMsim,lorentzianFWHMsim)
+    % All frequency units are in wavenumbers
+
+    % Get the appropriate lines
+    simIndex = find(wavenumSim > min(wavenumIn) & wavenumSim < max(wavenumIn));
+
+    if ~isvector(wavenumIn)
+       error('Input wavenumber must be a vector'); 
+    end
+
+    wavenum = wavenumIn;
+    %[wavenum, index] = sort(wavenumIn);
+
+    crossSection = zeros(size(wavenum));
+    for i = 1:numel(simIndex)
+        minSim = wavenumSim(simIndex(i))-10*gaussianFWHMsim(simIndex(i))-10*lorentzianFWHMsim(simIndex(i));
+        maxSim = wavenumSim(simIndex(i))+10*gaussianFWHMsim(simIndex(i))+10*lorentzianFWHMsim(simIndex(i));
+        idcs = find(wavenum >= minSim & wavenum <= maxSim);
+        crossSection(idcs) = crossSection(idcs) + intCrossSectionSim(simIndex(i)).*complex_voigt(wavenum(idcs), wavenumSim(simIndex(i)),gaussianFWHMsim(simIndex(i)),lorentzianFWHMsim(simIndex(i)));
+    end
+end

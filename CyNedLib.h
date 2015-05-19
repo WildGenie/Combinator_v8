@@ -1,0 +1,17 @@
+/* CyNedLib.h
+/////////////////////////////////////////////////////////////////////////////
+*/
+
+#ifndef _CY_NED_LIB_H_
+#define _CY_NED_LIB_H_
+
+// Macros
+/////////////////////////////////////////////////////////////////////////////
+
+#ifdef CY_NED_LIB_EXPORTS
+#define CY_NED_LIB_API __declspec(dllexport)
+#else
+#define CY_NED_LIB_API __declspec(dllimport)
+#endif
+
+#endif // _CY_NED_LIB_H_

@@ -1,0 +1,529 @@
+<store>
+	<entry name="Name">Cumulus</entry>
+	<entry name="DisplayName">SC4000/SC6000</entry>
+	<entry name="Identity">SC4000 Unknown</entry>
+	<entry name="Serial">Unknown</entry>
+	<entry name="Model">SC4000</entry>
+	<entry name="BaseModel">SC4000</entry>
+	<entry name="Controller">Cumulus</entry>
+	<entry name="Filter">Cumulus</entry>
+	<entry name="InfoReader">Cumulus</entry>
+	<entry name="DataType">UInt16</entry>
+	<entry name="PixelType">Grayscale (UInt16)</entry>
+	<entry name="ADBits">14</entry>
+	<entry name="ADBitsShift">0</entry>
+	<entry name="ADBitsMask">16383</entry>
+	<entry name="Offset">{ 1, 0, 0, 0 }</entry>
+	<entry name="Width">640</entry>
+	<entry name="Height">512</entry>
+	<entry name="Interlaced">0</entry>
+	<entry name="CommOnlyDeviceFlags">0</entry>
+	<entry name="Comm">
+		<entry name="InterfaceName">iPort</entry>
+		<entry name="DeviceName">00-11-1C-00-37-02 00:80:2F:11:79:47</entry>
+		<entry name="Params">
+			<entry name="Count">16</entry>
+			<entry name="[00]">
+				<entry name="Name">IP</entry>
+				<entry name="DisplayName">IP Address</entry>
+				<entry name="Description">IP address of the connected camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">[192.168.2.254]</entry>
+				</entry>
+			</entry>
+			<entry name="[01]">
+				<entry name="Name">MACAddress</entry>
+				<entry name="DisplayName">Camera MAC Address</entry>
+				<entry name="Description">MAC address of the connected camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">00-11-1C-00-37-02</entry>
+				</entry>
+			</entry>
+			<entry name="[02]">
+				<entry name="Name">AdapterMAC</entry>
+				<entry name="DisplayName">PC NIC MAC Address</entry>
+				<entry name="Description">MAC address of the network card used to connect to the camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">00:80:2F:11:79:47</entry>
+				</entry>
+			</entry>
+			<entry name="[03]">
+				<entry name="Name">DeviceName</entry>
+				<entry name="DisplayName">Device Name</entry>
+				<entry name="Description">Device name of the connected camera.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value" />
+				</entry>
+			</entry>
+			<entry name="[04]">
+				<entry name="Name">DeviceType</entry>
+				<entry name="DisplayName">Device Type</entry>
+				<entry name="Description">Device type of the connected camera.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">Standard CameraLink Camera</entry>
+				</entry>
+			</entry>
+			<entry name="[05]">
+				<entry name="Name">DeviceID</entry>
+				<entry name="DisplayName">Device ID</entry>
+				<entry name="Description">Device ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">3</entry>
+				</entry>
+			</entry>
+			<entry name="[06]">
+				<entry name="Name">ModuleID</entry>
+				<entry name="DisplayName">Module ID</entry>
+				<entry name="Description">Module ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">17</entry>
+				</entry>
+			</entry>
+			<entry name="[07]">
+				<entry name="Name">SubID</entry>
+				<entry name="DisplayName">Module Sub ID</entry>
+				<entry name="Description">Module Sub ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">1</entry>
+				</entry>
+			</entry>
+			<entry name="[08]">
+				<entry name="Name">VendorID</entry>
+				<entry name="DisplayName">Vendor ID</entry>
+				<entry name="Description">Vendor ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">19</entry>
+				</entry>
+			</entry>
+			<entry name="[09]">
+				<entry name="Name">Mode</entry>
+				<entry name="DisplayName">Connection Mode</entry>
+				<entry name="Description">Driver used to connect to the camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">High Performance</entry>
+					<entry name="EnumValues">
+						<entry name="Count">4</entry>
+						<entry name="[000]">
+							<entry name="Name">Windows Stack</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">Filter</entry>
+							<entry name="Value">3</entry>
+						</entry>
+						<entry name="[002]">
+							<entry name="Name">High Performance</entry>
+							<entry name="Value">0</entry>
+						</entry>
+						<entry name="[003]">
+							<entry name="Name">eBUS</entry>
+							<entry name="Value">4</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[10]">
+				<entry name="Name">SubnetMask</entry>
+				<entry name="DisplayName">Subnet Mask</entry>
+				<entry name="Description">Subnet mask of the camera&apos;s IP.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value" />
+				</entry>
+			</entry>
+			<entry name="[11]">
+				<entry name="Name">Gateway</entry>
+				<entry name="DisplayName">Gateway</entry>
+				<entry name="Description">Gateway IP address.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value" />
+				</entry>
+			</entry>
+			<entry name="[12]">
+				<entry name="Name">Port</entry>
+				<entry name="DisplayName">Port</entry>
+				<entry name="Description">Internal port used to talk to the camera.</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">USRT</entry>
+					<entry name="EnumValues">
+						<entry name="Count">2</entry>
+						<entry name="[000]">
+							<entry name="Name">UART</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">USRT</entry>
+							<entry name="Value">4</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[13]">
+				<entry name="Name">BaudRate</entry>
+				<entry name="DisplayName">Baud Rate</entry>
+				<entry name="Description">Data rate in bits per second (UART).</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">38400</entry>
+					<entry name="EnumValues">
+						<entry name="Count">7</entry>
+						<entry name="[000]">
+							<entry name="Name">9600</entry>
+							<entry name="Value">9600</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">14400</entry>
+							<entry name="Value">14400</entry>
+						</entry>
+						<entry name="[002]">
+							<entry name="Name">19200</entry>
+							<entry name="Value">19200</entry>
+						</entry>
+						<entry name="[003]">
+							<entry name="Name">28800</entry>
+							<entry name="Value">28800</entry>
+						</entry>
+						<entry name="[004]">
+							<entry name="Name">38400</entry>
+							<entry name="Value">38400</entry>
+						</entry>
+						<entry name="[005]">
+							<entry name="Name">57600</entry>
+							<entry name="Value">57600</entry>
+						</entry>
+						<entry name="[006]">
+							<entry name="Name">115200</entry>
+							<entry name="Value">115200</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[14]">
+				<entry name="Name">Parity</entry>
+				<entry name="DisplayName">Parity</entry>
+				<entry name="Description">Data parity bits (UART).</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">None</entry>
+					<entry name="EnumValues">
+						<entry name="Count">3</entry>
+						<entry name="[000]">
+							<entry name="Name">Even</entry>
+							<entry name="Value">2</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">Odd</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[002]">
+							<entry name="Name">None</entry>
+							<entry name="Value">0</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[15]">
+				<entry name="Name">StopBits</entry>
+				<entry name="DisplayName">Stop Bits</entry>
+				<entry name="Description">Number of bits used for data stop (UART).</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">1</entry>
+					<entry name="EnumValues">
+						<entry name="Count">2</entry>
+						<entry name="[000]">
+							<entry name="Name">1</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">2</entry>
+							<entry name="Value">2</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+		</entry>
+	</entry>
+	<entry name="Video">
+		<entry name="InterfaceName">iPort</entry>
+		<entry name="DeviceName">00-11-1C-00-37-02 00:80:2F:11:79:47</entry>
+		<entry name="Params">
+			<entry name="Count">16</entry>
+			<entry name="[00]">
+				<entry name="Name">IP</entry>
+				<entry name="DisplayName">IP Address</entry>
+				<entry name="Description">IP address of the connected camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">[192.168.2.254]</entry>
+				</entry>
+			</entry>
+			<entry name="[01]">
+				<entry name="Name">MACAddress</entry>
+				<entry name="DisplayName">Camera MAC Address</entry>
+				<entry name="Description">MAC address of the connected camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">00-11-1C-00-37-02</entry>
+				</entry>
+			</entry>
+			<entry name="[02]">
+				<entry name="Name">AdapterMAC</entry>
+				<entry name="DisplayName">PC NIC MAC Address</entry>
+				<entry name="Description">MAC address of the network card used to connect to the camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">00:80:2F:11:79:47</entry>
+				</entry>
+			</entry>
+			<entry name="[03]">
+				<entry name="Name">DeviceName</entry>
+				<entry name="DisplayName">Device Name</entry>
+				<entry name="Description">Device name of the connected camera.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value" />
+				</entry>
+			</entry>
+			<entry name="[04]">
+				<entry name="Name">DeviceType</entry>
+				<entry name="DisplayName">Device Type</entry>
+				<entry name="Description">Device type of the connected camera.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value">Standard CameraLink Camera</entry>
+				</entry>
+			</entry>
+			<entry name="[05]">
+				<entry name="Name">DeviceID</entry>
+				<entry name="DisplayName">Device ID</entry>
+				<entry name="Description">Device ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">3</entry>
+				</entry>
+			</entry>
+			<entry name="[06]">
+				<entry name="Name">ModuleID</entry>
+				<entry name="DisplayName">Module ID</entry>
+				<entry name="Description">Module ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">17</entry>
+				</entry>
+			</entry>
+			<entry name="[07]">
+				<entry name="Name">SubID</entry>
+				<entry name="DisplayName">Module Sub ID</entry>
+				<entry name="Description">Module Sub ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">1</entry>
+				</entry>
+			</entry>
+			<entry name="[08]">
+				<entry name="Name">VendorID</entry>
+				<entry name="DisplayName">Vendor ID</entry>
+				<entry name="Description">Vendor ID of the iPort board.</entry>
+				<entry name="EditLevel">Never</entry>
+				<entry name="Value">
+					<entry name="Type">Int32</entry>
+					<entry name="Value">19</entry>
+				</entry>
+			</entry>
+			<entry name="[09]">
+				<entry name="Name">Mode</entry>
+				<entry name="DisplayName">Connection Mode</entry>
+				<entry name="Description">Driver used to connect to the camera.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">High Performance</entry>
+					<entry name="EnumValues">
+						<entry name="Count">4</entry>
+						<entry name="[000]">
+							<entry name="Name">Windows Stack</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">Filter</entry>
+							<entry name="Value">3</entry>
+						</entry>
+						<entry name="[002]">
+							<entry name="Name">High Performance</entry>
+							<entry name="Value">0</entry>
+						</entry>
+						<entry name="[003]">
+							<entry name="Name">eBUS</entry>
+							<entry name="Value">4</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[10]">
+				<entry name="Name">SubnetMask</entry>
+				<entry name="DisplayName">Subnet Mask</entry>
+				<entry name="Description">Subnet mask of the camera&apos;s IP.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value" />
+				</entry>
+			</entry>
+			<entry name="[11]">
+				<entry name="Name">Gateway</entry>
+				<entry name="DisplayName">Gateway</entry>
+				<entry name="Description">Gateway IP address.</entry>
+				<entry name="EditLevel">CustomSelect</entry>
+				<entry name="Value">
+					<entry name="Type">String</entry>
+					<entry name="Value" />
+				</entry>
+			</entry>
+			<entry name="[12]">
+				<entry name="Name">Port</entry>
+				<entry name="DisplayName">Port</entry>
+				<entry name="Description">Internal port used to talk to the camera.</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">USRT</entry>
+					<entry name="EnumValues">
+						<entry name="Count">2</entry>
+						<entry name="[000]">
+							<entry name="Name">UART</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">USRT</entry>
+							<entry name="Value">4</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[13]">
+				<entry name="Name">BaudRate</entry>
+				<entry name="DisplayName">Baud Rate</entry>
+				<entry name="Description">Data rate in bits per second (UART).</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">38400</entry>
+					<entry name="EnumValues">
+						<entry name="Count">7</entry>
+						<entry name="[000]">
+							<entry name="Name">9600</entry>
+							<entry name="Value">9600</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">14400</entry>
+							<entry name="Value">14400</entry>
+						</entry>
+						<entry name="[002]">
+							<entry name="Name">19200</entry>
+							<entry name="Value">19200</entry>
+						</entry>
+						<entry name="[003]">
+							<entry name="Name">28800</entry>
+							<entry name="Value">28800</entry>
+						</entry>
+						<entry name="[004]">
+							<entry name="Name">38400</entry>
+							<entry name="Value">38400</entry>
+						</entry>
+						<entry name="[005]">
+							<entry name="Name">57600</entry>
+							<entry name="Value">57600</entry>
+						</entry>
+						<entry name="[006]">
+							<entry name="Name">115200</entry>
+							<entry name="Value">115200</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[14]">
+				<entry name="Name">Parity</entry>
+				<entry name="DisplayName">Parity</entry>
+				<entry name="Description">Data parity bits (UART).</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">None</entry>
+					<entry name="EnumValues">
+						<entry name="Count">3</entry>
+						<entry name="[000]">
+							<entry name="Name">Even</entry>
+							<entry name="Value">2</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">Odd</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[002]">
+							<entry name="Name">None</entry>
+							<entry name="Value">0</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+			<entry name="[15]">
+				<entry name="Name">StopBits</entry>
+				<entry name="DisplayName">Stop Bits</entry>
+				<entry name="Description">Number of bits used for data stop (UART).</entry>
+				<entry name="EditLevel">Internal</entry>
+				<entry name="Value">
+					<entry name="Type">Enum</entry>
+					<entry name="Value">1</entry>
+					<entry name="EnumValues">
+						<entry name="Count">2</entry>
+						<entry name="[000]">
+							<entry name="Name">1</entry>
+							<entry name="Value">1</entry>
+						</entry>
+						<entry name="[001]">
+							<entry name="Name">2</entry>
+							<entry name="Value">2</entry>
+						</entry>
+					</entry>
+				</entry>
+			</entry>
+		</entry>
+	</entry>
+</store>

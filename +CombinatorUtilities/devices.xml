@@ -1,0 +1,5007 @@
+<devices>
+
+<!--                                                                                 -->
+<!-- Devices                                                                         -->
+<!--                                                                                 -->
+
+    <device id="0">
+        <name>Prototype Device</name>
+        <ram>32</ram>
+    </device>
+
+    <device id="1">
+        <name>Gigabit Ethernet Device</name>
+        <ram>32</ram>
+    </device>
+
+    <device id="2">
+        <name>Fast Ethernet Device</name>
+        <ram>32</ram>
+    </device>
+
+    <device id="3">
+        <name>Gigabit Ethernet Device</name>
+        <ram>16</ram>
+    </device>
+
+    <device id="4">
+        <name>Fast Ethernet Device</name>
+        <ram>16</ram>
+    </device>
+
+    <device id="5">
+        <name>Gigabit Ethernet Device</name>
+        <ram>16</ram>
+    </device>
+
+    <device id="6">
+        <name>Gigabit Ethernet Device</name>
+        <ram>16</ram>
+    </device>
+
+    <device id="7">
+        <name>Gigabit Ethernet Device</name>
+        <ram>16</ram>
+    </device>
+
+    <device id="8">
+        <name>Gigabit Ethernet Device</name>
+        <ram>16</ram>
+    </device>
+
+    <device id="255">
+        <name>Gigabit Ethernet Device Emulator</name>
+    </device>
+
+
+
+<!--                                                                                 -->
+<!-- Modules                                                                         -->
+<!--                                                                                 -->
+
+
+    <module id="0">
+        <name>Internal Development Module</name>
+    </module>
+
+    <module id="1">
+        <name>Camera Link v1</name>
+    </module>
+
+    <module id="2">
+        <name>Video Decoder - TI TVP5145 v1</name>
+    </module>
+
+    <module id="4">
+        <name>Data Generator</name>
+    </module>
+
+    <module id="6">
+        <name>Camera Link v2</name>
+        <sub id="0">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="2">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="4">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="6">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="8">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="10">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="12">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="14">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="16">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="48">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="50">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="52">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="54">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="56">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="58">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="60">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="62">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="64">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="80">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="82">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="84">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="86">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="88">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="90">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="92">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="94">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="96">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="112">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="114">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="116">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="118">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="120">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="122">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="124">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="126">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="128">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="130">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="132">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="134">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="136">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="138">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="140">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="142">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="144">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="176">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="178">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="180">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="182">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="184">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="186">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="188">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="190">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="192">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="208">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="210">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="212">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="214">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="216">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="218">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="220">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="222">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="224">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+        <sub id="240">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="242">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="244">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="246">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="248">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="250">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="252">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="254">
+            <name>Third TTL Input and Output</name>
+        </sub>
+    </module>
+
+    <module id="7">
+        <name>Video Decoder - TI TVP5145 v2</name>
+    </module>
+
+    <module id="8">
+        <name>Video Decoder - Philips SAA 7115</name>
+        <sub id="1">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="2">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="3">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="4">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="5">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="6">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="7">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="9">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="10">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="11">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="12">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="13">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="14">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="15">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="49">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="50">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="51">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="52">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="53">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="54">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="55">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="57">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="58">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="59">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="60">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="61">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="62">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="63">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="81">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="82">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="83">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="84">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="85">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="86">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="87">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="89">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="90">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="91">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="92">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="93">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="94">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="95">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="113">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="114">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="115">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="116">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="117">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="118">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="119">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="121">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="122">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="123">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="124">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="125">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="126">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="127">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="129">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="130">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="131">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="132">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="133">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="134">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="135">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="137">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="138">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="139">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="140">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="141">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="142">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="143">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="177">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="178">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="179">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="180">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="181">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="182">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="183">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="185">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="186">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="187">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="188">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="189">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="190">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="191">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="209">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="210">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="211">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="212">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="213">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="214">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="215">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="217">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="218">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="219">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="220">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="221">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="222">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="223">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="241">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="242">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="243">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="244">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="245">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="246">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="247">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="249">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="250">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="251">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="252">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="253">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="254">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="255">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+    </module>
+
+    <module id="9">
+        <name>LVDS</name>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+    </module>
+
+    <module id="10">
+        <name>Video Decoder - Philips SAA 7113</name>
+        <sub id="1">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="2">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="3">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="4">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="5">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="6">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="7">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="9">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="10">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="11">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="12">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="13">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="14">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="15">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="49">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="50">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="51">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="52">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="53">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="54">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="55">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="57">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="58">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="59">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="60">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="61">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="62">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="63">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="81">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="82">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="83">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="84">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="85">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="86">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="87">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="89">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="90">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="91">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="92">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="93">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="94">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="95">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="113">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="114">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="115">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="116">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="117">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="118">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="119">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="121">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="122">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="123">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="124">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="125">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="126">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="127">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="129">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="130">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="131">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="132">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="133">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="134">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="135">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="137">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="138">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="139">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="140">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="141">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="142">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="143">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <name>GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <name>I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <name>GPIO and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <name>Serial Port Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <name>GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <name>I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <name>GPIO and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <name>Serial Port Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="177">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="178">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="179">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="180">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="181">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="182">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="183">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="185">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="186">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="187">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="188">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="189">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="190">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="191">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <name>GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <name>I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <name>GPIO and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <name>Serial Port Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="209">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="210">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="211">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="212">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="213">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="214">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="215">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="217">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="218">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="219">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="220">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="221">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="222">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="223">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <name>GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <name>I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <name>GPIO and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <name>Serial Port Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <name>Serial Port and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <name>Serial Port and I2C Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="241">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="242">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="243">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="244">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="245">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="246">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="247">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+        <sub id="249">
+            <name>GPIO Enabled</name>
+        </sub>
+        <sub id="250">
+            <name>I2C Enabled</name>
+        </sub>
+        <sub id="251">
+            <name>GPIO and I2C Enabled</name>
+        </sub>
+        <sub id="252">
+            <name>Serial Port Enabled</name>
+        </sub>
+        <sub id="253">
+            <name>Serial Port and GPIO Enabled</name>
+        </sub>
+        <sub id="254">
+            <name>Serial Port and I2C Enabled</name>
+        </sub>
+        <sub id="255">
+            <name>Serial Port, I2C and GPIO Enabled</name>
+        </sub>
+    </module>
+
+    <module id="11">
+        <name>JAI/Pulnix Camera</name>
+    </module>
+
+    <module id="12">
+        <name>Indigo LVDS/RS-422</name>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+    </module>
+
+    <module id="13">
+        <name>Indigo Serial LVDS - Multi-Channel</name>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+    </module>
+
+    <module id="14">
+        <name>Dual Channel LVDS</name>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+    </module>
+
+    <module id="15">
+        <name>IDT X-StreamVision XS-3</name>
+    </module>
+
+    <module id="16">
+        <name>PT1000-DVB-ASI</name>
+    </module>
+
+    <module id="17">
+        <name>Indigo USRT</name>
+        <sub id="16">
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="64">
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="96">
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="144">
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="192">
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="224">
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+    </module>
+
+    <module id="18">
+        <name>PT1000-ST-RP-TESTER</name>
+    </module>
+
+    <module id="19">
+        <name>Camera Link V2 (CL4/CL5) (Ask for a firmware update!)</name>
+        <sub id="0">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="2">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="4">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="6">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="8">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="10">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="12">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="14">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="16">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="17">
+            <ram>8</ram>
+        </sub>
+        <sub id="18">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="19">
+            <ram>8</ram>
+        </sub>
+        <sub id="20">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="21">
+            <ram>8</ram>
+        </sub>
+        <sub id="22">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="23">
+            <ram>8</ram>
+        </sub>
+        <sub id="24">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="25">
+            <ram>8</ram>
+        </sub>
+        <sub id="26">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="27">
+            <ram>8</ram>
+        </sub>
+        <sub id="28">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="29">
+            <ram>8</ram>
+        </sub>
+        <sub id="30">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="31">
+            <ram>8</ram>
+        </sub>
+        <sub id="32">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="33">
+            <ram>32</ram>
+        </sub>
+        <sub id="34">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="35">
+            <ram>32</ram>
+        </sub>
+        <sub id="36">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="37">
+            <ram>32</ram>
+        </sub>
+        <sub id="38">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="39">
+            <ram>32</ram>
+        </sub>
+        <sub id="40">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="41">
+            <ram>32</ram>
+        </sub>
+        <sub id="42">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="43">
+            <ram>32</ram>
+        </sub>
+        <sub id="44">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="45">
+            <ram>32</ram>
+        </sub>
+        <sub id="46">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="47">
+            <ram>32</ram>
+        </sub>
+        <sub id="48">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="50">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="52">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="54">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="56">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="58">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="60">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="62">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="64">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="65">
+            <ram>64</ram>
+        </sub>
+        <sub id="66">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="67">
+            <ram>64</ram>
+        </sub>
+        <sub id="68">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="69">
+            <ram>64</ram>
+        </sub>
+        <sub id="70">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="71">
+            <ram>64</ram>
+        </sub>
+        <sub id="72">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="73">
+            <ram>64</ram>
+        </sub>
+        <sub id="74">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="75">
+            <ram>64</ram>
+        </sub>
+        <sub id="76">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="77">
+            <ram>64</ram>
+        </sub>
+        <sub id="78">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="79">
+            <ram>64</ram>
+        </sub>
+        <sub id="80">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="82">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="84">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="86">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="88">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="90">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="92">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="94">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="96">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="97">
+            <ram>128</ram>
+        </sub>
+        <sub id="98">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="99">
+            <ram>128</ram>
+        </sub>
+        <sub id="100">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="101">
+            <ram>128</ram>
+        </sub>
+        <sub id="102">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="103">
+            <ram>128</ram>
+        </sub>
+        <sub id="104">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="105">
+            <ram>128</ram>
+        </sub>
+        <sub id="106">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="107">
+            <ram>128</ram>
+        </sub>
+        <sub id="108">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="109">
+            <ram>128</ram>
+        </sub>
+        <sub id="110">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="111">
+            <ram>128</ram>
+        </sub>
+        <sub id="112">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="114">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="116">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="118">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="120">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="122">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="124">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="126">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="128">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="130">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="132">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="134">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="136">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="138">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="140">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="142">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="144">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="145">
+            <ram>8</ram>
+        </sub>
+        <sub id="146">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="147">
+            <ram>8</ram>
+        </sub>
+        <sub id="148">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="149">
+            <ram>8</ram>
+        </sub>
+        <sub id="150">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="151">
+            <ram>8</ram>
+        </sub>
+        <sub id="152">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="153">
+            <ram>8</ram>
+        </sub>
+        <sub id="154">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="155">
+            <ram>8</ram>
+        </sub>
+        <sub id="156">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="157">
+            <ram>8</ram>
+        </sub>
+        <sub id="158">
+            <name>Third TTL Input and Output</name>
+            <ram>8</ram>
+        </sub>
+        <sub id="159">
+            <ram>8</ram>
+        </sub>
+        <sub id="160">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="161">
+            <ram>32</ram>
+        </sub>
+        <sub id="162">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="163">
+            <ram>32</ram>
+        </sub>
+        <sub id="164">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="165">
+            <ram>32</ram>
+        </sub>
+        <sub id="166">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="167">
+            <ram>32</ram>
+        </sub>
+        <sub id="168">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="169">
+            <ram>32</ram>
+        </sub>
+        <sub id="170">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="171">
+            <ram>32</ram>
+        </sub>
+        <sub id="172">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="173">
+            <ram>32</ram>
+        </sub>
+        <sub id="174">
+            <name>Third TTL Input and Output</name>
+            <ram>32</ram>
+        </sub>
+        <sub id="175">
+            <ram>32</ram>
+        </sub>
+        <sub id="176">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="178">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="180">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="182">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="184">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="186">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="188">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="190">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="192">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="193">
+            <ram>64</ram>
+        </sub>
+        <sub id="194">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="195">
+            <ram>64</ram>
+        </sub>
+        <sub id="196">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="197">
+            <ram>64</ram>
+        </sub>
+        <sub id="198">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="199">
+            <ram>64</ram>
+        </sub>
+        <sub id="200">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="201">
+            <ram>64</ram>
+        </sub>
+        <sub id="202">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="203">
+            <ram>64</ram>
+        </sub>
+        <sub id="204">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="205">
+            <ram>64</ram>
+        </sub>
+        <sub id="206">
+            <name>Third TTL Input and Output</name>
+            <ram>64</ram>
+        </sub>
+        <sub id="207">
+            <ram>64</ram>
+        </sub>
+        <sub id="208">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="210">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="212">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="214">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="216">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="218">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="220">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="222">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="224">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="225">
+            <ram>128</ram>
+        </sub>
+        <sub id="226">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="227">
+            <ram>128</ram>
+        </sub>
+        <sub id="228">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="229">
+            <ram>128</ram>
+        </sub>
+        <sub id="230">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="231">
+            <ram>128</ram>
+        </sub>
+        <sub id="232">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="233">
+            <ram>128</ram>
+        </sub>
+        <sub id="234">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="235">
+            <ram>128</ram>
+        </sub>
+        <sub id="236">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="237">
+            <ram>128</ram>
+        </sub>
+        <sub id="238">
+            <name>Third TTL Input and Output</name>
+            <ram>128</ram>
+        </sub>
+        <sub id="239">
+            <ram>128</ram>
+        </sub>
+        <sub id="240">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="242">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="244">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="246">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="248">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="250">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="252">
+            <name>Third TTL Input and Output</name>
+        </sub>
+        <sub id="254">
+            <name>Third TTL Input and Output</name>
+        </sub>
+    </module>
+
+    <module id="20">
+        <name>PT1000-1394</name>
+    </module>
+
+    <device id="255">
+        <name>Software Emulator</name>
+    </device>
+
+</devices>
